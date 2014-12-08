@@ -1,7 +1,8 @@
 # Workshop 3 - Redesign weleda.ch
 
-Dozentin: Madame Monorom
-Studenten: Celine Solenthaler, Caroline Badoud, Patricia Roth, Beat Temperli
+Dozentin: `Madame Monorom`
+ 
+Studenten: `Celine Solenthaler`, `Caroline Badoud`, `Patricia Roth`, `Beat Temperli`
 
 ## Setup
 
