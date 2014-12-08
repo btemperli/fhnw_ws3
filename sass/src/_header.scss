@@ -1,0 +1,16 @@
+/* =========================================================================
+   Header styles
+   all styling of the header
+   ========================================================================= */
+
+header {
+    height: 5 * $size-base;
+    background-color: $color-background-header;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+body {
+    margin-top: 6 * $size-base;
+}

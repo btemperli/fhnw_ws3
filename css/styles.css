@@ -4618,3 +4618,21 @@ input[type="button"].btn-block {
 body {
   background-color: #e5e5e5;
 }
+
+/* =========================================================================
+   Header styles
+   all styling of the header
+   ========================================================================= */
+/* line 6, ../sass/src/_header.scss */
+header {
+  height: 60px;
+  background-color: #cccccc;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+/* line 14, ../sass/src/_header.scss */
+body {
+  margin-top: 72px;
+}
