@@ -1,0 +1,60 @@
+/* =========================================================================
+   Box Modules
+   ========================================================================= */
+
+.box-wrapper-1-3,
+.box-wrapper-1-2 {
+    @extend .col-xs-12;
+    @extend .col-sm-6;
+
+    height: $size-base * 10;
+    margin-top: $size-base;
+    margin-bottom: $size-base;
+
+    @media screen and (min-width: $screen-xs-max) {
+        height: $size-base * 12;
+    }
+
+    @media screen and (min-width: $screen-sm-max) {
+        height: $size-base * 14;
+    }
+}
+
+.box-wrapper-1-3 {
+    @extend .col-md-4;
+}
+
+.box-wrapper-1-2 {
+    @media screen and (min-width: $screen-md-max) {
+        height: $size-base * 20;
+    }
+}
+
+.box {
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+
+    h2 {
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        text-align: center;
+        top: $size-base * 4;
+        @include transition(opacity 1s ease);
+    }
+
+    &:hover {
+        h2 {
+            opacity: 0.8;
+        }
+    }
+}
+
+.box--welt { background-image: url('../img/home/welt.jpg'); }
+.box--pflege { background-image: url('../img/home/pflege.jpg'); }
+.box--arznei { background-image: url('../img/home/arznei.jpg'); }
+.box--wirkstoffe { background-image: url('../img/home/wirkstoffe.jpg'); }
+.box--familie { background-image: url('../img/home/familie.jpg'); }

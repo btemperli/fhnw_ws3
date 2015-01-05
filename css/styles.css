@@ -1633,7 +1633,7 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 62, ../lib/bootstrap/assets/stylesheets/bootstrap/_type.scss */
   .lead {
     font-size: 21px;
@@ -1874,7 +1874,7 @@ dd {
 .dl-horizontal dd:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 211, ../lib/bootstrap/assets/stylesheets/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -2048,22 +2048,22 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 10, ../lib/bootstrap/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 750px;
+    width: 640px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
   /* line 10, ../lib/bootstrap/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 970px;
+    width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   /* line 10, ../lib/bootstrap/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 1170px;
+    width: 1180px;
   }
 }
 
@@ -2100,7 +2100,9 @@ pre code {
 }
 
 /* line 11, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .box-wrapper-1-3, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .box-wrapper-1-3,
+.box-wrapper-1-2, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .box-wrapper-1-3,
+.box-wrapper-1-2, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2108,7 +2110,8 @@ pre code {
 }
 
 /* line 27, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .box-wrapper-1-3,
+.box-wrapper-1-2 {
   float: left;
 }
 
@@ -2168,7 +2171,8 @@ pre code {
 }
 
 /* line 35, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12 {
+.col-xs-12, .box-wrapper-1-3,
+.box-wrapper-1-2 {
   width: 100%;
 }
 
@@ -2367,9 +2371,10 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 27, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .box-wrapper-1-3,
+  .box-wrapper-1-2, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
 
@@ -2399,7 +2404,8 @@ pre code {
   }
 
   /* line 35, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-6 {
+  .col-sm-6, .box-wrapper-1-3,
+  .box-wrapper-1-2 {
     width: 50%;
   }
 
@@ -2628,9 +2634,9 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 960px) {
   /* line 27, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .box-wrapper-1-3, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
 
@@ -2650,7 +2656,7 @@ pre code {
   }
 
   /* line 35, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-4 {
+  .col-md-4, .box-wrapper-1-3 {
     width: 33.33333%;
   }
 
@@ -2889,7 +2895,7 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   /* line 27, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -3368,7 +3374,7 @@ table th[class*="col-"] {
   overflow-x: auto;
   min-height: 0.01%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 639px) {
   /* line 171, ../lib/bootstrap/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
@@ -3864,7 +3870,7 @@ select[multiple].input-lg, .form-group-lg .form-control {
   color: #737373;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 410, ../lib/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-group {
     display: inline-block;
@@ -3954,7 +3960,7 @@ select[multiple].input-lg, .form-group-lg .form-control {
 .form-horizontal .form-group:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 515, ../lib/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
@@ -3966,13 +3972,13 @@ select[multiple].input-lg, .form-group-lg .form-control {
 .form-horizontal .has-feedback .form-control-feedback {
   right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 536, ../lib/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .form-group-lg .control-label {
     padding-top: 14.3px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   /* line 543, ../lib/bootstrap/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
@@ -4346,7 +4352,7 @@ input[type="button"].btn-block {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
   /* line 7, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-xs {
     display: block !important;
@@ -4368,28 +4374,28 @@ input[type="button"].btn-block {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 639px) {
   /* line 49, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-block {
     display: block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
   /* line 54, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline {
     display: inline !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
   /* line 59, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 640px) and (max-width: 959px) {
   /* line 7, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-sm {
     display: block !important;
@@ -4411,28 +4417,28 @@ input[type="button"].btn-block {
     display: table-cell !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 640px) and (max-width: 959px) {
   /* line 68, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 640px) and (max-width: 959px) {
   /* line 73, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 640px) and (max-width: 959px) {
   /* line 78, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1179px) {
   /* line 7, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-md {
     display: block !important;
@@ -4454,28 +4460,28 @@ input[type="button"].btn-block {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1179px) {
   /* line 87, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-block {
     display: block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1179px) {
   /* line 92, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1179px) {
   /* line 97, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   /* line 7, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-lg {
     display: block !important;
@@ -4497,46 +4503,46 @@ input[type="button"].btn-block {
     display: table-cell !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   /* line 106, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-block {
     display: block !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   /* line 111, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   /* line 116, ../lib/bootstrap/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
   /* line 18, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 640px) and (max-width: 959px) {
   /* line 18, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1179px) {
   /* line 18, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-md {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   /* line 18, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-lg {
     display: none !important;
@@ -4638,6 +4644,87 @@ a.inactive {
 }
 
 /* =========================================================================
+   Box Modules
+   ========================================================================= */
+/* line 5, ../sass/src/_box.scss */
+.box-wrapper-1-3,
+.box-wrapper-1-2 {
+  height: 120px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 639px) {
+  /* line 5, ../sass/src/_box.scss */
+  .box-wrapper-1-3,
+  .box-wrapper-1-2 {
+    height: 144px;
+  }
+}
+@media screen and (min-width: 959px) {
+  /* line 5, ../sass/src/_box.scss */
+  .box-wrapper-1-3,
+  .box-wrapper-1-2 {
+    height: 168px;
+  }
+}
+
+@media screen and (min-width: 1179px) {
+  /* line 27, ../sass/src/_box.scss */
+  .box-wrapper-1-2 {
+    height: 240px;
+  }
+}
+
+/* line 33, ../sass/src/_box.scss */
+.box {
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+/* line 40, ../sass/src/_box.scss */
+.box h2 {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  top: 48px;
+  -webkit-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+/* line 50, ../sass/src/_box.scss */
+.box:hover h2 {
+  opacity: 0.8;
+}
+
+/* line 56, ../sass/src/_box.scss */
+.box--welt {
+  background-image: url("../img/home/welt.jpg");
+}
+
+/* line 57, ../sass/src/_box.scss */
+.box--pflege {
+  background-image: url("../img/home/pflege.jpg");
+}
+
+/* line 58, ../sass/src/_box.scss */
+.box--arznei {
+  background-image: url("../img/home/arznei.jpg");
+}
+
+/* line 59, ../sass/src/_box.scss */
+.box--wirkstoffe {
+  background-image: url("../img/home/wirkstoffe.jpg");
+}
+
+/* line 60, ../sass/src/_box.scss */
+.box--familie {
+  background-image: url("../img/home/familie.jpg");
+}
+
+/* =========================================================================
    Header styles
    all styling of the header
    ========================================================================= */
@@ -4659,7 +4746,7 @@ header .weleda-logo {
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 639px) {
   /* line 15, ../sass/src/_header.scss */
   header .weleda-logo {
     height: 96px;
@@ -4670,7 +4757,7 @@ header .weleda-logo {
 header .header-language {
   margin-top: 20px;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 639px) {
   /* line 30, ../sass/src/_header.scss */
   header .header-language {
     margin-top: 40px;
