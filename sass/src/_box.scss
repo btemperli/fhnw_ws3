@@ -39,6 +39,17 @@
     }
 }
 
+.box-wrapper-1-4 {
+    @extend .col-sm-6;
+    @extend .col-md-3;
+
+    .btn {
+        height: $size-base * 5;
+        padding-top: $size-base * 1.7;
+        padding-bottom: $size-base * 1.7;
+    }
+}
+
 .box {
     position: relative;
     background-size: cover;
@@ -52,6 +63,7 @@
         opacity: 0.6;
         text-align: center;
         top: $size-base * 4;
+        color: $color-weleda;
         @include transition(opacity 1s ease);
 
         @media screen and (min-width: $screen-sm-max) {

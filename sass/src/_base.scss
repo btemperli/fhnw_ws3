@@ -22,3 +22,13 @@ a {
 
     @include transition(color 0.3s ease);
 }
+
+a.btn {
+    text-decoration: none;
+}
+
+.btn.btn-primary {
+    background: #fff;
+    border-color: $color-weleda;
+    color: $color-weleda;
+}
