@@ -9,8 +9,10 @@ header {
     height: $height-header * 0.6;
     background-color: $color-background-header;
     position: fixed;
-    top: $size-base / 2;
+    padding-top: $size-base / 2;
+    top: 0;
     width: 100%;
+    z-index: 2000;
 
     @media screen and (min-width : $screen-xs-max)  {
         height: $height-header;
@@ -21,7 +23,7 @@ header {
         display: block;
         height: $height-header * 0.6;
         width: $height-header * 0.6;
-        background-size: 100% auto;
+        background-size: auto 100%;
         background-image: url('../img/logo.png');
         background-repeat: no-repeat;
 

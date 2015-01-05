@@ -4622,7 +4622,7 @@ input[type="button"].btn-block {
    ========================================================================= */
 /* line 6, ../sass/src/_base.scss */
 body {
-  background-color: #e5e5e5;
+  background-color: #f5f5f5;
 }
 
 /* line 10, ../sass/src/_base.scss */
@@ -4781,6 +4781,41 @@ a.btn {
   background-image: url("../img/home/familie.jpg");
 }
 
+/* line 98, ../sass/src/_box.scss */
+.box--gesicht {
+  background-image: url("../img/pflege/gesicht.jpg");
+}
+
+/* line 99, ../sass/src/_box.scss */
+.box--body {
+  background-image: url("../img/pflege/koerper.jpg");
+}
+
+/* line 100, ../sass/src/_box.scss */
+.box--haare {
+  background-image: url("../img/pflege/haare.jpg");
+}
+
+/* line 101, ../sass/src/_box.scss */
+.box--mund {
+  background-image: url("../img/pflege/mund.jpg");
+}
+
+/* line 102, ../sass/src/_box.scss */
+.box--herren {
+  background-image: url("../img/pflege/men.jpg");
+}
+
+/* line 103, ../sass/src/_box.scss */
+.box--mutter {
+  background-image: url("../img/pflege/muetter.jpg");
+}
+
+/* line 104, ../sass/src/_box.scss */
+.box--baby {
+  background-image: url("../img/pflege/baby.jpg");
+}
+
 /* line 1, ../sass/src/_social.scss */
 .social-bar {
   background-color: #658a48;
@@ -4819,6 +4854,35 @@ a.btn {
   float: right;
 }
 
+/* line 1, ../sass/src/_navigation.scss */
+.navigation {
+  padding: 0;
+  margin-top: 20px;
+}
+@media screen and (min-width: 639px) {
+  /* line 1, ../sass/src/_navigation.scss */
+  .navigation {
+    margin-top: 40px;
+  }
+}
+/* line 10, ../sass/src/_navigation.scss */
+.navigation li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 12px;
+  list-style: none;
+  border-left: 1px solid black;
+}
+/* line 18, ../sass/src/_navigation.scss */
+.navigation li:first-child {
+  border-left: none;
+}
+/* line 22, ../sass/src/_navigation.scss */
+.navigation li.active a {
+  color: #658a48;
+}
+
 /* =========================================================================
    Header styles
    all styling of the header
@@ -4826,10 +4890,12 @@ a.btn {
 /* line 8, ../sass/src/_header.scss */
 header {
   height: 57.6px;
-  background-color: #e5e5e5;
+  background-color: #f5f5f5;
   position: fixed;
-  top: 6px;
+  padding-top: 6px;
+  top: 0;
   width: 100%;
+  z-index: 2000;
 }
 @media screen and (min-width: 639px) {
   /* line 8, ../sass/src/_header.scss */
@@ -4837,53 +4903,53 @@ header {
     height: 96px;
   }
 }
-/* line 19, ../sass/src/_header.scss */
+/* line 21, ../sass/src/_header.scss */
 header .weleda-logo {
   text-indent: -9999px;
   display: block;
   height: 57.6px;
   width: 57.6px;
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 639px) {
-  /* line 19, ../sass/src/_header.scss */
+  /* line 21, ../sass/src/_header.scss */
   header .weleda-logo {
     height: 96px;
     width: 96px;
   }
 }
-/* line 34, ../sass/src/_header.scss */
+/* line 36, ../sass/src/_header.scss */
 header .header-language {
   margin-top: 20px;
 }
 @media screen and (min-width: 639px) {
-  /* line 34, ../sass/src/_header.scss */
+  /* line 36, ../sass/src/_header.scss */
   header .header-language {
     margin-top: 40px;
   }
 }
-/* line 42, ../sass/src/_header.scss */
+/* line 44, ../sass/src/_header.scss */
 header .header-language a {
   margin-left: 12px;
   float: left;
 }
-/* line 46, ../sass/src/_header.scss */
+/* line 48, ../sass/src/_header.scss */
 header .header-language a:first-child {
   margin-left: 0;
 }
-/* line 52, ../sass/src/_header.scss */
+/* line 54, ../sass/src/_header.scss */
 header .header-input {
   margin-top: 32px;
 }
 
-/* line 57, ../sass/src/_header.scss */
+/* line 59, ../sass/src/_header.scss */
 body {
   margin-top: 69.6px;
 }
 @media screen and (min-width: 639px) {
-  /* line 57, ../sass/src/_header.scss */
+  /* line 59, ../sass/src/_header.scss */
   body {
     margin-top: 108px;
   }

@@ -1,0 +1,26 @@
+.navigation {
+
+    padding: 0;
+    margin-top: 20px;
+
+    @media screen and (min-width : $screen-xs-max)  {
+        margin-top: 40px;
+    }
+    
+    li {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0 $size-base;
+        list-style: none;
+        border-left: 1px solid black;
+
+        &:first-child {
+            border-left: none;
+        }
+
+        &.active a {
+            color: $color-weleda;
+        }
+    }
+}
