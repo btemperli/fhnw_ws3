@@ -4760,13 +4760,24 @@ a.inactive {
   border-top-right-radius: 72px;
   float: left;
   margin: 12px;
-  text-indent: -9999px;
   position: relative;
+  color: #658a48;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 20px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-/* line 22, ../sass/src/_social.scss */
+/* line 24, ../sass/src/_social.scss */
+.social-bar .icon:hover {
+  color: #fff;
+  background-color: #98bb7d;
+}
+/* line 33, ../sass/src/_social.scss */
 .social-bar .text-right .icon {
   float: right;
-  text-indent: 9999px;
 }
 
 /* =========================================================================

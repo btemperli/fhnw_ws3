@@ -14,14 +14,24 @@
         @include border-right-radius($size-base * 6);
         float: left;
         margin: $size-base;
-        text-indent: -9999px;
         position: relative;
+        color: $color-weleda;
+        font-size: $size-base * 2.5;
+        font-weight: bold;
+        line-height: $size-base * 2.5;
+        padding: 20px;
+
+        &:hover {
+            color: #fff;
+            background-color: lighten($color-weleda, 20);
+        }
+
+        @include transition(all 0.4s ease);
     }
 
     .text-right {
         .icon {
             float: right;
-            text-indent: 9999px;
         }
     }
 }
