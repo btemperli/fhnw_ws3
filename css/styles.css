@@ -4619,20 +4619,78 @@ body {
   background-color: #e5e5e5;
 }
 
+/* line 10, ../sass/src/_base.scss */
+a {
+  color: #222222;
+  text-decoration: underline;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+/* line 14, ../sass/src/_base.scss */
+a:hover {
+  color: #6f6f6f;
+}
+/* line 18, ../sass/src/_base.scss */
+a.inactive {
+  text-decoration: none;
+  color: #6f6f6f;
+}
+
 /* =========================================================================
    Header styles
    all styling of the header
    ========================================================================= */
-/* line 6, ../sass/src/_header.scss */
+/* line 8, ../sass/src/_header.scss */
 header {
-  height: 60px;
-  background-color: #cccccc;
+  height: 96px;
+  background-color: #e5e5e5;
   position: fixed;
-  top: 0px;
+  top: 6px;
   width: 100%;
 }
+/* line 15, ../sass/src/_header.scss */
+header .weleda-logo {
+  text-indent: -9999px;
+  display: block;
+  height: 57.6px;
+  width: 57.6px;
+  background-size: 100% auto;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 767px) {
+  /* line 15, ../sass/src/_header.scss */
+  header .weleda-logo {
+    height: 96px;
+    width: 96px;
+  }
+}
+/* line 30, ../sass/src/_header.scss */
+header .header-language {
+  margin-top: 20px;
+}
+@media screen and (min-width: 767px) {
+  /* line 30, ../sass/src/_header.scss */
+  header .header-language {
+    margin-top: 40px;
+  }
+}
+/* line 38, ../sass/src/_header.scss */
+header .header-language a {
+  margin-left: 12px;
+  float: left;
+}
+/* line 42, ../sass/src/_header.scss */
+header .header-language a:first-child {
+  margin-left: 0;
+}
+/* line 48, ../sass/src/_header.scss */
+header .header-input {
+  margin-top: 32px;
+}
 
-/* line 14, ../sass/src/_header.scss */
+/* line 53, ../sass/src/_header.scss */
 body {
-  margin-top: 72px;
+  margin-top: 108px;
 }

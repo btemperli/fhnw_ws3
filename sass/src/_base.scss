@@ -6,3 +6,19 @@
 body {
     background-color: $color-background;
 }
+
+a {
+    color: $color-link;
+    text-decoration: underline;
+
+    &:hover {
+        color: $color-link-hover;
+    }
+
+    &.inactive {
+        text-decoration: none;
+        color: $color-link-hover;
+    }
+
+    @include transition(color 0.3s ease);
+}

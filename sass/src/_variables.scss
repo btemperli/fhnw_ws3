@@ -9,4 +9,8 @@ $size-base: 12px;
 /* Colors
    ========================================================================= */
 $color-background: #e5e5e5;
-$color-background-header: #cccccc;
+$color-background-header: #e5e5e5;
+
+$color-foreground: #222222;
+$color-link: $color-foreground;
+$color-link-hover: lighten($color-foreground, 30);

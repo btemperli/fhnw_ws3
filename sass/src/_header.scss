@@ -3,14 +3,53 @@
    all styling of the header
    ========================================================================= */
 
+$height-header: 8 * $size-base;
+
 header {
-    height: 5 * $size-base;
+    height: $height-header;
     background-color: $color-background-header;
     position: fixed;
-    top: 0px;
+    top: $size-base / 2;
     width: 100%;
+
+    .weleda-logo {
+        text-indent: -9999px;
+        display: block;
+        height: $height-header * 0.6;
+        width: $height-header * 0.6;
+        background-size: 100% auto;
+        background-image: url('../img/logo.png');
+        background-repeat: no-repeat;
+
+        @media screen and (min-width : $screen-xs-max)  {
+            height: $height-header;
+            width: $height-header;
+        }
+    }
+
+    .header-language {
+
+        margin-top: 20px;
+
+        @media screen and (min-width : $screen-xs-max)  {
+            margin-top: 40px;
+        }
+
+        a {
+            margin-left: $size-base;
+            float: left;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .header-input {
+        margin-top: 32px;
+    }
 }
 
 body {
-    margin-top: 6 * $size-base;
+    margin-top: $height-header + $size-base;
 }
