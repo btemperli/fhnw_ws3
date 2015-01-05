@@ -1436,12 +1436,12 @@ textarea {
 
 /* line 48, ../lib/bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #337ab7;
+  color: #658a48;
   text-decoration: none;
 }
 /* line 52, ../lib/bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #23527c;
+  color: #40582e;
   text-decoration: underline;
 }
 /* line 58, ../lib/bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1700,12 +1700,12 @@ mark,
 
 /* line 5, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #337ab7;
+  color: #658a48;
 }
 
 /* line 8, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #286090;
+  color: #4c6837;
 }
 
 /* line 5, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -1755,12 +1755,12 @@ a.text-danger:hover {
 
 /* line 5, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #337ab7;
+  background-color: #658a48;
 }
 
 /* line 8, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #286090;
+  background-color: #4c6837;
 }
 
 /* line 5, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
@@ -3527,10 +3527,10 @@ output {
 }
 /* line 57, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #658a48;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(101, 138, 72, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(101, 138, 72, 0.6);
 }
 /* line 103, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-moz-placeholder {
@@ -4064,14 +4064,14 @@ select[multiple].input-lg, .form-group-lg .form-control {
 /* line 63, ../lib/bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #658a48;
+  border-color: #59793f;
 }
 /* line 11, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #4c6837;
+  border-color: #3b512a;
 }
 /* line 21, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -4079,12 +4079,12 @@ select[multiple].input-lg, .form-group-lg .form-control {
 }
 /* line 29, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #658a48;
+  border-color: #59793f;
 }
 /* line 40, ../lib/bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #337ab7;
+  color: #658a48;
   background-color: #fff;
 }
 
@@ -4198,7 +4198,7 @@ select[multiple].input-lg, .form-group-lg .form-control {
 
 /* line 88, ../lib/bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #337ab7;
+  color: #658a48;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4214,7 +4214,7 @@ select[multiple].input-lg, .form-group-lg .form-control {
 }
 /* line 107, ../lib/bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #23527c;
+  color: #40582e;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4668,14 +4668,26 @@ a.inactive {
   }
 }
 
+@media screen and (min-width: 639px) {
+  /* line 27, ../sass/src/_box.scss */
+  .box-wrapper-1-2 {
+    height: 168px;
+  }
+}
+@media screen and (min-width: 959px) {
+  /* line 27, ../sass/src/_box.scss */
+  .box-wrapper-1-2 {
+    height: 216px;
+  }
+}
 @media screen and (min-width: 1179px) {
   /* line 27, ../sass/src/_box.scss */
   .box-wrapper-1-2 {
-    height: 240px;
+    height: 264px;
   }
 }
 
-/* line 33, ../sass/src/_box.scss */
+/* line 42, ../sass/src/_box.scss */
 .box {
   position: relative;
   background-size: cover;
@@ -4683,45 +4695,78 @@ a.inactive {
   width: 100%;
   height: 100%;
 }
-/* line 40, ../sass/src/_box.scss */
+/* line 49, ../sass/src/_box.scss */
 .box h2 {
   position: absolute;
   width: 100%;
-  opacity: 0;
+  opacity: 0.6;
   text-align: center;
   top: 48px;
   -webkit-transition: opacity 1s ease;
   -o-transition: opacity 1s ease;
   transition: opacity 1s ease;
 }
-/* line 50, ../sass/src/_box.scss */
+@media screen and (min-width: 959px) {
+  /* line 49, ../sass/src/_box.scss */
+  .box h2 {
+    opacity: 0;
+  }
+}
+/* line 63, ../sass/src/_box.scss */
 .box:hover h2 {
-  opacity: 0.8;
+  opacity: 1;
 }
 
-/* line 56, ../sass/src/_box.scss */
+/* line 69, ../sass/src/_box.scss */
 .box--welt {
   background-image: url("../img/home/welt.jpg");
 }
 
-/* line 57, ../sass/src/_box.scss */
+/* line 70, ../sass/src/_box.scss */
 .box--pflege {
   background-image: url("../img/home/pflege.jpg");
 }
 
-/* line 58, ../sass/src/_box.scss */
+/* line 71, ../sass/src/_box.scss */
 .box--arznei {
   background-image: url("../img/home/arznei.jpg");
 }
 
-/* line 59, ../sass/src/_box.scss */
+/* line 72, ../sass/src/_box.scss */
 .box--wirkstoffe {
   background-image: url("../img/home/wirkstoffe.jpg");
 }
 
-/* line 60, ../sass/src/_box.scss */
+/* line 73, ../sass/src/_box.scss */
 .box--familie {
   background-image: url("../img/home/familie.jpg");
+}
+
+/* line 1, ../sass/src/_social.scss */
+.social-bar {
+  background-color: #658a48;
+  height: 96px;
+  width: 100%;
+  margin: 24px 0;
+}
+/* line 9, ../sass/src/_social.scss */
+.social-bar .icon {
+  background-color: #fff;
+  height: 72px;
+  width: 72px;
+  border-bottom-left-radius: 72px;
+  border-top-left-radius: 72px;
+  border-bottom-right-radius: 72px;
+  border-top-right-radius: 72px;
+  float: left;
+  margin: 12px;
+  text-indent: -9999px;
+  position: relative;
+}
+/* line 22, ../sass/src/_social.scss */
+.social-bar .text-right .icon {
+  float: right;
+  text-indent: 9999px;
 }
 
 /* =========================================================================

@@ -25,8 +25,17 @@
 }
 
 .box-wrapper-1-2 {
+
+    @media screen and (min-width: $screen-xs-max) {
+        height: $size-base * 14;
+    }
+
+    @media screen and (min-width: $screen-sm-max) {
+        height: $size-base * 18;
+    }
+
     @media screen and (min-width: $screen-md-max) {
-        height: $size-base * 20;
+        height: $size-base * 22;
     }
 }
 
@@ -40,15 +49,19 @@
     h2 {
         position: absolute;
         width: 100%;
-        opacity: 0;
+        opacity: 0.6;
         text-align: center;
         top: $size-base * 4;
         @include transition(opacity 1s ease);
+
+        @media screen and (min-width: $screen-sm-max) {
+            opacity: 0;
+        }
     }
 
     &:hover {
         h2 {
-            opacity: 0.8;
+            opacity: 1;
         }
     }
 }
