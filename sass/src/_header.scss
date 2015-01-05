@@ -6,11 +6,15 @@
 $height-header: 8 * $size-base;
 
 header {
-    height: $height-header;
+    height: $height-header * 0.6;
     background-color: $color-background-header;
     position: fixed;
     top: $size-base / 2;
     width: 100%;
+
+    @media screen and (min-width : $screen-xs-max)  {
+        height: $height-header;
+    }
 
     .weleda-logo {
         text-indent: -9999px;
@@ -51,5 +55,9 @@ header {
 }
 
 body {
-    margin-top: $height-header + $size-base;
+    margin-top: $height-header * 0.6 + $size-base;
+
+    @media screen and (min-width: $screen-xs-max) {
+        margin-top: $height-header + $size-base;
+    }
 }

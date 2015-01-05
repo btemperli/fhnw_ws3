@@ -31,4 +31,8 @@ a.btn {
     background: #fff;
     border-color: $color-weleda;
     color: $color-weleda;
+
+    &:hover {
+        background: lighten($color-weleda, 50);
+    }
 }

@@ -47,6 +47,7 @@
         height: $size-base * 5;
         padding-top: $size-base * 1.7;
         padding-bottom: $size-base * 1.7;
+        margin-bottom: $size-base;
     }
 }
 
@@ -62,12 +63,13 @@
         width: 100%;
         opacity: 0.6;
         text-align: center;
-        top: $size-base * 4;
+        top: $size-base * 2;
         color: $color-weleda;
         @include transition(opacity 1s ease);
 
         @media screen and (min-width: $screen-sm-max) {
             opacity: 0;
+            top: $size-base * 4;
         }
     }
 
@@ -75,6 +77,16 @@
         h2 {
             opacity: 1;
         }
+    }
+}
+
+.box-wrapper-1-2 h2 {
+    @media screen and (min-width: $screen-sm-max) {
+        top: $size-base * 6;
+    }
+
+    @media screen and (min-width: $screen-md-max) {
+        top: $size-base * 8;
     }
 }
 
