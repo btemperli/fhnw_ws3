@@ -65,6 +65,7 @@
         text-align: center;
         top: $size-base * 2;
         color: $color-weleda;
+        text-shadow: 0px 0px 10px $color-background;
         @include transition(opacity 1s ease);
 
         @media screen and (min-width: $screen-sm-max) {
