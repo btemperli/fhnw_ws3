@@ -36,3 +36,11 @@ a.btn {
         background: lighten($color-weleda, 50);
     }
 }
+
+.margin--bottom {
+    margin-bottom: $size-base * 2;
+}
+
+.margin--top {
+    margin-top: $size-base * 2;
+}
