@@ -44,3 +44,23 @@ a.btn {
 .margin--top {
     margin-top: $size-base * 2;
 }
+
+.collapse,
+.collapsing {
+    .panel-body {
+        height: 0;
+        display: none;
+    }
+}
+
+.collapse.in {
+    .panel-body {
+        height: auto;
+        display: block;
+    }
+}
+
+.panel-heading a {
+    text-decoration: none;
+    font-size: $size-base * 1.33;
+}

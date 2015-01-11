@@ -5097,6 +5097,25 @@ a.btn {
   margin-top: 24px;
 }
 
+/* line 50, ../sass/src/_base.scss */
+.collapse .panel-body,
+.collapsing .panel-body {
+  height: 0;
+  display: none;
+}
+
+/* line 57, ../sass/src/_base.scss */
+.collapse.in .panel-body {
+  height: auto;
+  display: block;
+}
+
+/* line 63, ../sass/src/_base.scss */
+.panel-heading a {
+  text-decoration: none;
+  font-size: 15.96px;
+}
+
 /* =========================================================================
    Box Modules
    ========================================================================= */
